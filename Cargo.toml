@@ -1,0 +1,12 @@
+[package]
+name = "async-raw"
+version = "0.1.0"
+edition = "2024"
+repository = "https://github.com/arctessa/async-raw"
+license-file = "LICENSE"
+readme = "README.md"
+description = "Demo project of using raw read/writable sockets with tokio"
+
+[dependencies]
+tokio = { version = "1.44", features = ["full"] }
+libc = "0.2"
